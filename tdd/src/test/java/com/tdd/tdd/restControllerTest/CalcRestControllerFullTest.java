@@ -23,7 +23,5 @@ public class CalcRestControllerFullTest {
     public void testRestMethod()throws Exception {
         mockMvc.perform(get("/echo/hello"))
                 .andExpect(status().isOk());
-       // .andExpect(content().)
-        ;
     }
 }
